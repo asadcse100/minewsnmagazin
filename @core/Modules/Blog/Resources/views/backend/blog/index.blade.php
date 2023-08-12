@@ -83,7 +83,7 @@
 
         $('.table-wrap > table').DataTable({
             processing: true,
-            serverSide: true,
+            serverSide: false,
             ajax: "{{ route('admin.blog',['lang' => $default_lang]) }}",
             columns: [
                 {data: 'checkbox', name: '', orderable: false, searchable: false},

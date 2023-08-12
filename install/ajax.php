@@ -161,8 +161,6 @@ function importDatabase($db)
 }
 
 
-
-
 /* check database connection */
 if (isset($_POST['action']) && $_POST['action'] === '_db_connection_check') {
     $db_name = $_POST['db_name'];
